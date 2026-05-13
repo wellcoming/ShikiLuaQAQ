@@ -2,10 +2,9 @@
 -- update time: 2026-05-07
 -- app_name: 古神之呼唤
 
-addappid(2174380)
+addappid(2174380,0,"f69b7369e6afe1db501920e567670564a98cbf949ac68203767a862b8ba4fcba")
 
 addappid(2174381,0,"b23891968a4d2f805a9d01cb4c6f8ccd8f498fdd22b105ff97a529c07d159c0a")
 
--- DLC: 1/1
-
-addappid(4656660)
+-- DLC: 0/1
+-- missing DLC: 4656660
