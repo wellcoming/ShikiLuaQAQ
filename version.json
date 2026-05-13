@@ -1,9 +1,8 @@
 {
-    "version": "9.99",
+    "version": "2.71",
     "url": "https://space.bilibili.com/20568856/dynamic",
     "notes": {
-        "v2.70": "QwQ 导购全家死光光了了喵~ 该版本暂时无法使用了哦，请大家更新到v2.71版本。",
-        "v2.71": "① 解决 代码54修复 可能对某些虚幻引擎游戏修复失败的问题；② 新增在游戏列表双击选中游戏可打开对应Lua文件。"
+        "v2.71": "①（！！！重要！！！）无论新旧内核，现lua文件的存放位置统一为 “Steam/config/stplug-in” 中；② 修复 “代码54修复” 可能对某些虚幻引擎游戏修复失败的问题；③ “游戏列表” 新增 “双击” 选中游戏可打开对应Lua文件的功能；④ “导入Lua” 功能从拖拽到 “手搓Lua窗口” 修改为拖拽到 “主窗体” 中，且永远不会对外部导入的Lua将进行头注释以外的任何修改；"
     },
-    "manifest_sig": "QCClOWSNJla3QDFG4cPtdBZCXfmv793MQ1TDXd9p96oI6sYKOjEd5M+RZArVOTz4EvTQWhbvGwYx/tVjEpTQAg=="
+    "manifest_sig": "Tfdm3LO+fffTQFDnKDpSmfvCYutalvunFR+5qD62EfAQHwzWszY+b6lQbaxRVO3SxounRlfDZ+ftj9iChzzuDQ=="
 }
