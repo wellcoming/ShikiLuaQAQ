@@ -1,0 +1,9 @@
+{
+    "version": "9.99",
+    "url": "https://space.bilibili.com/20568856/dynamic",
+    "notes": {
+        "v2.70": "QwQ 导购全家死光光了了喵~ 该版本暂时无法使用了哦，请大家更新到v2.71版本。",
+        "v2.71": "① 解决 代码54修复 可能对某些虚幻引擎游戏修复失败的问题；② 新增在游戏列表双击选中游戏可打开对应Lua文件。"
+    },
+    "manifest_sig": "QCClOWSNJla3QDFG4cPtdBZCXfmv793MQ1TDXd9p96oI6sYKOjEd5M+RZArVOTz4EvTQWhbvGwYx/tVjEpTQAg=="
+}
