@@ -1,0 +1,22 @@
+{
+    "name": "shiki-lua-api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "wrangler dev",
+        "deploy": "wrangler deploy"
+    },
+    "keywords": [],
+    "author": "wellcoming",
+    "license": "AGPL-3.0-or-later",
+    "type": "commonjs",
+    "dependencies": {
+        "jszip": "^3.10.1"
+    },
+    "devDependencies": {
+        "@cloudflare/workers-types": "^4.20260511.1",
+        "typescript": "^6.0.3",
+        "wrangler": "^4.90.1"
+    }
+}
