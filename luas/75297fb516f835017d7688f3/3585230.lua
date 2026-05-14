@@ -2,6 +2,6 @@
 -- update time: 2026-02-08
 -- app_name: Pro Basketball Manager 2026
 
-addappid(3585230)
+addappid(3585230,0,"fcd38c63a9f93993c0d7d301e049f377ca4f0453f4507fa8722e97c491fb13ff")
 
 addappid(3585231,0,"bab5253869995441780e31e4f1e533cbe6126fa3bffc921da87c5e061f880878")
