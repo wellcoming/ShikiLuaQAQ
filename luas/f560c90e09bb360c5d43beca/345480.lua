@@ -10,3 +10,5 @@ addappid(458220,0,"c31fd6e3d31cdf4caf3ac24cabaff2f5326234ff72da7aab61831347dfe3b
 -- DLC: 1/1
 
 addappid(458220)
+
+addtoken(458220, "6439824438321157068")

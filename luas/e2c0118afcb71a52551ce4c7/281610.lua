@@ -17,3 +17,5 @@ addappid(433240)
 addappid(433241)
 addappid(433242)
 addappid(436550)
+
+addtoken(433240, "10226243612479684966")
