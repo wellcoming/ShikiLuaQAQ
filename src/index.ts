@@ -45,7 +45,7 @@ export default {
         const folderHash = hash.substring(0, 24);
 
         // GitHub raw content URL (attaching timestamp to prevent caching)
-        const githubUrl = `https://raw.githubusercontent.com/wellcoming/ShikiLuaQAQ/main/luas/${folderHash}/${appid}.lua?t=${Date.now()}`;
+        const githubUrl = `https://raw.githubusercontent.com/ShikieikiC/ShikiLuaQAQ/main/luas/${folderHash}/${appid}.lua?t=${Date.now()}`;
 
         const githubResponse = await fetch(githubUrl, {
             headers: {
