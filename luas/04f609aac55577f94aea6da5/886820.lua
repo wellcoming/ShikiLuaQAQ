@@ -26,3 +26,5 @@ addappid(1055070)
 addappid(1055071)
 addappid(1055072)
 addappid(1055073)
+
+addtoken(1047070,"12020400458890378038")
