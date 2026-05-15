@@ -2,7 +2,7 @@
 -- update time: 2020-01-22
 -- app_name: Hyperdimension Neptunia Re;Birth3 V Generation
 
-addappid(353270)
+addappid(353270,0,"6795a08045e7362fa55a94ff0483925c004a34b774fff8c8511f15bc71e96387")
 
 addappid(353271,0,"3486fb9867eb4d44f8f77de8f1731ef563abacf49c2f69a153bdf0a6fdec6566")
 addappid(353272,0,"392ca2035868c6ead2aa636cbe4fc880cdb68b28471bb8bc373c911854721fb7")

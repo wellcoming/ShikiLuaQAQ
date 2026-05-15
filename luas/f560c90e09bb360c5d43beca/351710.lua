@@ -2,7 +2,7 @@
 -- update time: 2020-04-03
 -- app_name: Hyperdimension Neptunia Re;Birth2 Sisters Generation
 
-addappid(351710)
+addappid(351710,0,"fbeb058e51d6319414c99df4cd0ed5bf449c38b7316fd5d425c561b654f49d02")
 
 addappid(351711,0,"e0aea843f232b45e6e1d87069b2ef90fbfb9800d07b150d0a42cdf31e898788c")
 addappid(351712,0,"61b61256c5c02369c34ba0c3f7ffcf9b06d585e9308e66c37be5e98269adda69")
