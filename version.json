@@ -1,8 +1,9 @@
 {
-    "version": "2.71",
+    "version": "2.72",
     "url": "https://space.bilibili.com/20568856/dynamic",
     "notes": {
-        "v2.71": "①（！！！重要！！！）无论新旧内核，现lua文件的存放位置统一为 “Steam/config/stplug-in” 中；② 修复 “代码54修复” 可能对某些虚幻引擎游戏修复失败的问题；③ “游戏列表” 新增 “双击” 选中游戏可打开对应Lua文件的功能；④ “导入Lua” 功能从拖拽到 “手搓Lua窗口” 修改为拖拽到 “主窗体” 中，且永远不会对外部导入的Lua将进行头注释以外的任何修改；"
+        "v2.71": "①（！！！重要！！！）无论新旧内核，现lua文件的存放位置统一为 “Steam/config/stplug-in” 中；② 修复 “代码54修复” 可能对某些虚幻引擎游戏修复失败的问题；③ “游戏列表” 新增 “双击” 选中游戏可打开对应Lua文件的功能；④ “导入Lua” 功能从拖拽到 “手搓Lua窗口” 修改为拖拽到 “主窗体” 中，且永远不会对外部导入的Lua将进行头注释以外的任何修改；",
+        "v2.72": "①（！！！重要！！！）游戏管理列表选中游戏右键会出现功能菜单，涵盖以下功能：编辑Lua、游戏重命名、锁定游戏版本、480联机启动、打开文件位置。（注意：480联机启动位置已转移到右键菜单中）；② 修复在软件内移除某游戏的Lua文件后续还会再出现的问题；③ 优化并增强拖拽导入外部Lua至主窗口的功能；④ 修复修改软件名会被检测为第三方篡改的问题；⑤ 稍微美化补录反馈中的问题类型下拉菜单。"
     },
-    "manifest_sig": "Tfdm3LO+fffTQFDnKDpSmfvCYutalvunFR+5qD62EfAQHwzWszY+b6lQbaxRVO3SxounRlfDZ+ftj9iChzzuDQ=="
+    "manifest_sig": "wFZamR2vA6SQwOzLNYIToOSmDbydMZxykdzDVoclwdy++HnOt+eqL0yQTEOOgBEgmulBq/lNsf6WmG6JBpOtCA=="
 }
