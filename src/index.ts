@@ -2,7 +2,6 @@ import JSZip from 'jszip';
 
 export interface Env { }
 
-// Web Crypto SHA256 helper
 async function sha256Hex(text: string): Promise<string> {
     const encoder = new TextEncoder();
     const data = encoder.encode(text);
@@ -21,28 +20,20 @@ export default {
         const url = new URL(request.url);
         const path = url.pathname.slice(1); // remove leading slash
 
-        // match {appid}.zip
-        const match = path.match(/^(\d+)\.zip$/);
+        // match {appid}.zip or {appid}.lua
+        const match = path.match(/^(\d+)\.(zip|lua)$/);
         if (!match) {
             return new Response('Not Found', { status: 404 });
         }
 
         const appidStr = match[1];
+        const ext = match[2];
         const appid = parseInt(appidStr, 10);
 
         // Calculate folder hash
         const start = Math.floor(appid / 20000) * 20000;
-        const end = start + 19999;
-
-        // As seen in the Python testing, start 0 is "00000"
-        let startStr = start.toString();
-        if (start === 0) {
-            startStr = "00000";
-        }
-
-        const salt = `SHIKIKAWAII${startStr}-${end}`;
-        const hash = await sha256Hex(salt);
-        const folderHash = hash.substring(0, 24);
+        const salt = `SHIKIKAWAII${String(start).padStart(5, '0')}-${start + 19999}`;
+        const folderHash = (await sha256Hex(salt)).substring(0, 24);
 
         // GitHub raw content URL (attaching timestamp to prevent caching)
         const githubUrl = `https://raw.githubusercontent.com/ShikieikiC/ShikiLuaQAQ/main/luas/${folderHash}/${appid}.lua?t=${Date.now()}`;
@@ -59,6 +50,15 @@ export default {
         }
 
         const luaContent = await githubResponse.arrayBuffer();
+
+        if (ext === 'lua') {
+            return new Response(luaContent, {
+                headers: {
+                    'Content-Type': 'application/octet-stream',
+                    'Content-Disposition': `attachment; filename="${appid}.lua"`
+                }
+            });
+        }
 
         // Create a zip file containing the lua file
         const zip = new JSZip();
