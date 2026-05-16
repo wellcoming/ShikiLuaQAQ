@@ -5,12 +5,12 @@ permissions:
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 * * * *"
   workflow_dispatch:
 
 jobs:
   sync:
-    name: Sync latest commits from upstream repo
+    name: Sync commits from upstream repo
     runs-on: ubuntu-latest
     if: ${{ github.event.repository.fork }}
 
@@ -19,4 +19,5 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          # Prevent rollback to avoid repository deletion
           gh repo sync ${{ github.repository }} --branch main
