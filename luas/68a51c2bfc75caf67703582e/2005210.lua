@@ -2,6 +2,6 @@
 -- update time: 2025-12-14
 -- app_name: Void Scrappers
 
-addappid(2005210)
+addappid(2005210,0,"2f7be089e70a7d1bb122968aa655004b9d3803c529218d6c492bfc5a806bb42d")
 
 addappid(2005211,0,"4956919eb84cc06a63abccaf682d62d1df63f29a6d7061344d154e3a30734e8e")
