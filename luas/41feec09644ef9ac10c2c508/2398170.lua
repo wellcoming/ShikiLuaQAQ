@@ -2,6 +2,6 @@
 -- update time: 2025-12-15
 -- app_name: 深地爆破采掘
 
-addappid(2398170)
+addappid(2398170,0,"2b696cbe3e48a68613aab0df261fb2ef5a171c89793636aa344904d46a10f047")
 
 addappid(2398171,0,"17a13058c9b92ec2d622ec63e9e8535e28fcfa051ab2df613ca72f72d422fa8e")

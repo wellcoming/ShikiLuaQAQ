@@ -2,6 +2,6 @@
 -- update time: 2026-03-18
 -- app_name: 泡泡糖点点乐
 
-addappid(3724490)
+addappid(3724490,0,"9beeeaea67b21df0374555f991778bd5f444735e74553257206b5f2d14078cf3")
 
 addappid(3724491,0,"016a4cc686eea23ebbb5d1dfc1eedde62b3ec9d7242435afd2dffee1d5907d3d")
