@@ -2,6 +2,6 @@
 -- update time: 2020-01-03
 -- app_name: Acting Lessons
 
-addappid(1045520)
+addappid(1045520,0,"31b97be71b2fea3168921711111b20971663e365ecaed6c36ce8a7b9cf619eac")
 
 addappid(1045521,0,"b6a955f1d728cf529a0de7fe6e219eebf725e4b19a8c6359b587f8367d4e812b")
