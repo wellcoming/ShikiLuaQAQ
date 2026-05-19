@@ -2,6 +2,6 @@
 -- update time: 2025-02-26
 -- app_name: 辣妹连续中出
 
-addappid(1830780)
+addappid(1830780,0,"691ef9b6ae8370b1b6092a1e7857da836e2ae5155ec2a39c670a559b203f249b")
 
 addappid(1830781,0,"40a3c68a844974a7828431bfbd5e95e95a87887654bc3dfeadd635245b9618ca")
