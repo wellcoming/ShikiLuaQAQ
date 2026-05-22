@@ -2,6 +2,6 @@
 -- update time: 2026-04-15
 -- app_name: 浣熊推币机
 
-addappid(3784030)
+addappid(3784030,0,"379a8fff167957102822d61c9b726008c3b1c3eae0baafb45bd51f805c13fb19")
 
 addappid(3784031,0,"b7bfd29859fb8492a8b2cd4c476184e3ade362bbc50eaec4a7be6b45a02e0d4d")
