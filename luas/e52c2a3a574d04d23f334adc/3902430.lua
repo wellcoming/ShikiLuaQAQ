@@ -2,6 +2,6 @@
 -- update time: 2026-04-15
 -- app_name: War of Dots
 
-addappid(3902430)
+addappid(3902430,0,"cac20488e3adff4bb334870507485e03d0b1f0b632ee42bbb5071f89d5e35003")
 
 addappid(3902431,0,"e2a061b424954fa719d819911e116efaf29fbd880314531bcd078f453c8b9887")
