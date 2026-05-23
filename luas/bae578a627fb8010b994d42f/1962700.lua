@@ -2,6 +2,6 @@
 -- update time: 2026-05-11
 -- app_name: Subnautica 2：异星水域
 
-addappid(1962700)
+addappid(1962700,0,"f1218dc455570758f1829f86bbfab5e00806e8a4063b13c786c37ff641e8053f")
 
 addappid(1962701,0,"96feb03fc707b975cf8271da4659fdb16c14c4b1a5c5bf8f94bd66e39edd4d96")
