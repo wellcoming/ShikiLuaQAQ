@@ -1,8 +1,8 @@
 {
-    "version": "2.74",
+    "version": "5.20",
     "url": "https://space.bilibili.com/20568856/dynamic",
     "notes": {
-        "v2.74": "① 修复了新内核对最新版 Steam(1779486452) 解锁失效的问题；② 新增新内核自动同步远端仓库更新的功能；③ 在 “重启Steam” 按钮中添加 “新的用户” 选项。"
+        "v5.20": "（！！此通知仅为更新预告，并非正式更新！！）下次更新即 KeySteam v2.75发布后，其它版本将不再予以支持，请届时大家及时更新到最新版喵~o( =∩ω∩= )m"
     },
-    "manifest_sig": "eNmYbP4Lt20tj7EixB4lnjbbz53xKrxzTC2/YkauR6ytvIqKhCVjhDsi75Ug2HlZBy68FKsiF92Kh6cR59VVBw=="
+    "manifest_sig": "fozEOnmEr3ZfdHKk7SNHS38ahcmvn8kwfV7ae+XnaC8zSdP7x8EQFIVV5+8hi0PGK8rXJe032nwoTRQ4E86DDw=="
 }
